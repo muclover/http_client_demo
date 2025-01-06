@@ -12,8 +12,8 @@ Other:
 - ureq：只支持同步、只使用 safe rust
 
 两个不同的 mock 工具：
-- https://lib.rs/crates/httpc-test：模拟HTTP客户端来进行测试，建立在 reqwest 上
-- https://docs.rs/httptest/latest/httptest：模拟服务器，建立在 hyper 上
+- [httpc-test](https://lib.rs/crates/httpc-test): 模拟HTTP客户端来进行测试，建立在 reqwest 上
+- [httptest](https://docs.rs/httptest/latest/httptest): 模拟服务器，建立在 hyper 上
 
 Todo: 
 - [ ] add benchmark framework
