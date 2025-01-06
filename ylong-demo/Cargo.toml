@@ -1,0 +1,8 @@
+[package]
+name = "ylong-demo"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+ylong_http_client = {git = "https://gitee.com/openharmony/commonlibrary_rust_ylong_http", features = ["async", "http1_1", "tokio_base"]}
+tokio ={ version =  "1.42.0", features = ["full"]}
